@@ -7,7 +7,7 @@ format: html
 
 **1. Identify your data source.**
 
-These data come from sampling efforts in the summer of 2023 for a marine protected area effectiveness evaluation.
+These data come from sampling efforts that I participated in over the summer of 2023 for a marine protected area effectiveness evaluation through the Lindholm imagery analysis lab.
 
 **2. Describe your data, including variables and data types.**
 
@@ -27,7 +27,7 @@ Depth (m) - depth of drop in meters
 
 Habitat - Hard = all rock, mixed-hard = mostly rock, mixed-soft = mostly sand/mud, soft = all sand/mud
 
-Relief - High = >2 meters depth change, Medium = 1-2 meter, Low = <1 meter
+Relief - High = \>2 meters depth change, Medium = 1-2 meter, Low = \<1 meter
 
 Rugosity - The complexity (holes, cracks, overhangs, etc.) of the habitat
 
@@ -37,16 +37,38 @@ Shannon_div - Shannon-Wiener diversity index
 
 **3. Identify the research questions you want to answer.**
 
+How does species diversity vary inside and outside of marine protected areas?
 
+How does relative abundance and size vary inside and out of MPAs?
 
+How does habitat vary inside and out of MPAs?
 
 ## Data Visualization
 
 **1. What do you want your final visualizations to look like?**
 
+*How does species diversity vary inside and outside of marine protected areas?*
+
+-   Boxplot of diversity by designation with all locations included, then faceted by location.
+
+*How does relative abundance and size vary inside and out of MPAs?*
+
+-   Bar chart of average abundances by designation
+
+-   Ridgeplot of sizes by designation, with vertical lines showing where the mean or median is.
+
+*How does habitat vary inside and out of MPAs?*
+
+-   Bar plots comparing habitat metrics by designation, faceted by location.
+
 **2. What do you want to highlight on your final visualizations in order to answer your research questions? How do you plan to do that?**
 
+- I want to highlight potential differences, if any, between inside and outside of marine protected areas. I plan on doing that with lines, annotations, and captions.
+
 **3. What is missing from your data or would need to change in your data to create these visualizations?**
+
+- I need to get the average fish sizes by drop, which I will do by summarizing another data set and joining it to the main one I will be using (more details below). 
+
 
 ## Data Cleaning
 
@@ -68,11 +90,11 @@ Yes, I would like to create a species richness variable by grouping by drop then
 
 **5. Do you need to add new data (join) to your data? What data? How?**
 
-See above question. The data added comes from the same sampling effort, but looks at individual fish instead of the overall drop. 
+See above question. The data added comes from the same sampling effort, but looks at individual fish instead of the overall drop.
 
 **6. Are there any variables you can exclude from your data?**
 
-Yes, 
+Yes, date and one of the diversity indices can be excluded.
 
 **7. Do you need pivot your data in any way? Why? How?**
 
@@ -85,4 +107,3 @@ See question 4.
 **9. What other aspects of your data need to be “fixed” in order to make your data visualizations?**
 
 None (hopefully).
-
