@@ -63,12 +63,11 @@ How does habitat vary inside and out of MPAs?
 
 **2. What do you want to highlight on your final visualizations in order to answer your research questions? How do you plan to do that?**
 
-- I want to highlight potential differences, if any, between inside and outside of marine protected areas. I plan on doing that with lines, annotations, and captions.
+-   I want to highlight potential differences, if any, between inside and outside of marine protected areas. I plan on doing that with lines, annotations, and captions.
 
 **3. What is missing from your data or would need to change in your data to create these visualizations?**
 
-- I need to get the average fish sizes by drop, which I will do by summarizing another data set and joining it to the main one I will be using (more details below). 
-
+-   I need to get the average fish sizes by drop, which I will do by summarizing another data set and joining it to the main one I will be using (more details below).
 
 ## Data Cleaning
 
