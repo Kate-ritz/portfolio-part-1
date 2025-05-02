@@ -49,7 +49,7 @@ How does habitat vary inside and out of MPAs?
 
 *How does species diversity vary inside and outside of marine protected areas?*
 
--   Boxplot of diversity by designation with all locations included, then faceted by location.
+-   Boxplot of species richness by designation with all locations included, then faceted by location.
 
 *How does relative abundance and size vary inside and out of MPAs?*
 

@@ -26,6 +26,19 @@ points |>
 
 ```
 
+```{r}
+points |> 
+  select(OpCode, Common_name) |> 
+  group_by(OpCode) |> 
+  summarize(n_distinct(Common_name)) |> 
+  left_join(drop, by = c("OpCode" = "Drop_ID")) |> 
+  rename(Spp_richness = 'n_distinct(Common_name)') |> 
+  ggplot(aes(x = Designation, y = Spp_richness)) +
+  geom_boxplot() +
+  facet_grid(~ Location)
+```
+
+
 
 
 
